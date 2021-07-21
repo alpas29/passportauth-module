@@ -1,0 +1,30 @@
+{
+    "name": "visyon360/passportauth-module",
+    "description": "Handle authentication through OAuth",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "Alejandro Páez Espinosa",
+            "email": "apaez@kiteris.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "laravel/passport": "^10.1",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PassportAuth\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

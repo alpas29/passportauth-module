@@ -1,0 +1,13 @@
+{
+    "name": "PassportAuth",
+    "alias": "passportauth",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PassportAuth\\Providers\\PassportAuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
